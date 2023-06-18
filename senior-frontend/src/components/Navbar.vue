@@ -6,6 +6,8 @@
       class="text-sm font-bold leading-relaxed i -2 whitespace-nowrap uppercase text-blue-900 gap-x-3 flex flex-row drop-shadow-lg shadow-blue-600/50"
     >
       <router-link to="/">Garage</router-link>
+      <router-link to="/profile">Profile</router-link>
+      <router-link to="/">case</router-link>
     </div>
     <div
       v-if="GStore.currentEmail"
