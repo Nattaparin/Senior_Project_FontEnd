@@ -3,6 +3,7 @@ import Home from "../views/Home.vue";
 import Login from "../views/Login.vue";
 import SignUp from "../views/SignUp.vue";
 import Profile from "../views/ProfileView.vue";
+import ReciveView from "../views/ReciveView.vue";
 
 const routes = [
   {
@@ -28,6 +29,12 @@ const routes = [
     component: Profile,
   },
   { path: "/:pathMatch(.*)*", redirect: "/profile" },
+  {
+    path: "/receive-case",
+    name: "receive-cese",
+    component: ReciveView,
+  },
+  { path: "/:pathMatch(.*)*", redirect: "/receive-case" },
 ];
 
 const router = createRouter({

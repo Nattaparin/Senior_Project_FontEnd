@@ -7,7 +7,7 @@
     >
       <router-link to="/">Garage</router-link>
       <router-link to="/profile">Profile</router-link>
-      <router-link to="/">case</router-link>
+      <router-link to="/receive-case">case</router-link>
     </div>
     <div
       v-if="GStore.currentEmail"
