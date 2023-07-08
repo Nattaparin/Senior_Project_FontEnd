@@ -1,13 +1,14 @@
 <template>
   <div
-    class="top-0 flex justify-between items-center px-3 md:px-6 w-full h-[60px] bg-black"
+    class="mb-5 top-0 flex justify-between items-center px-3 md:px-6 w-full h-[60px] bg-black"
   >
     <div
       class="text-sm font-bold leading-relaxed i -2 whitespace-nowrap uppercase text-blue-900 gap-x-3 flex flex-row drop-shadow-lg shadow-blue-600/50"
     >
       <router-link to="/">Garage</router-link>
       <router-link to="/profile">Profile</router-link>
-      <router-link to="/receive-case">case</router-link>
+      <router-link to="/receive-case">Receive-case</router-link>
+      <router-link to="/event-card">Case</router-link>
     </div>
     <div
       v-if="GStore.currentEmail"

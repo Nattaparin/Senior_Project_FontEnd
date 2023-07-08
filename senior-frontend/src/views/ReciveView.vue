@@ -8,7 +8,7 @@
           >
             <div class="text-center mb-1000">
               <span
-                class="box-decoration-clone bg-gradient-to-r from-indigo-600 to-Blue-500 text-black text-2xl uppercase"
+                class="text-4xl font-black text-gray-900 dark:text-white uppercase"
                 >Receive Case</span
               >
             </div>
@@ -69,24 +69,25 @@
                     class="block uppercase text-gray-700 text-xs font-bold mb-2"
                     for="grid-infromation"
                     >Technicians</label
-                  ><input
+                  ><select
                     type="technicians"
                     class="border-0 px-1 py-1 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                     placeholder="Technicians"
                     style="transition: all 0.15s ease 0s"
-                  />
+                  ></select>
                 </div>
                 <div class="relative w-full mb-3">
                   <label
                     class="block uppercase text-gray-700 text-xs font-bold mb-2"
                     for="grid-infromation"
                     >Car Symptoms</label
-                  ><input
+                  ><textarea
                     type="car symptoms/n"
-                    class="border-0 px-1 py-8 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                    row="4"
+                    class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="Car Symptoms"
                     style="transition: all 0.15s ease 0s"
-                  />
+                  ></textarea>
                 </div>
                 <div class="text-center mt-6">
                   <button

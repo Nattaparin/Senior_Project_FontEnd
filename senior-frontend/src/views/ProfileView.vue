@@ -8,9 +8,12 @@
           >
             <div class="text-center mb-1000">
               <span
-                class="box-decoration-clone bg-gradient-to-r from-indigo-600 to-Blue-500 text-black text-2xl uppercase"
+                class="text-4xl font-black text-gray-900 dark:text-white uppercase"
                 >Profile</span
               >
+              <hr
+                class="w-48 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-2 dark:bg--700"
+              />
             </div>
             <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
               <form>

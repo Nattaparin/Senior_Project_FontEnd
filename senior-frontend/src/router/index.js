@@ -4,6 +4,8 @@ import Login from "../views/Login.vue";
 import SignUp from "../views/SignUp.vue";
 import Profile from "../views/ProfileView.vue";
 import ReciveView from "../views/ReciveView.vue";
+import EventCard from "../views/EventCardView.vue";
+import InfoCard from "../views/EventDetailView.vue";
 
 const routes = [
   {
@@ -35,6 +37,18 @@ const routes = [
     component: ReciveView,
   },
   { path: "/:pathMatch(.*)*", redirect: "/receive-case" },
+  {
+    path: "/event-card",
+    name: "event-card",
+    component: EventCard,
+  },
+  { path: "/:pathMatch(.*)*", redirect: "/event-card" },
+  {
+    path: "/info-card",
+    name: "info-card",
+    component: InfoCard,
+  },
+  { path: "/:pathMatch(.*)*", redirect: "/info card" },
 ];
 
 const router = createRouter({
