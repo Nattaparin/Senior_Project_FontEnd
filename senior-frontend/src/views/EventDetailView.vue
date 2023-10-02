@@ -9,10 +9,6 @@
       class="w-48 h-3 mx-auto my-3 bg-gray-700 border-0 rounded md:my-2 dark:bg--700"
     />
     <section class="absolute w-full h-full">
-      <!-- <div
-        class="absolute top-0 w-full h-full bg-black"
-        style="background-size: 100%; background-repeat: no-repeat"
-      ></div> -->
       <div class="container mx-auto px-4 h-full">
         <div class="flex justify-center h-full">
           <div class="w-full lg:w-4/12 px-4">
@@ -121,7 +117,7 @@
             }"
             class="a2"
           >
-            อยู่ระหว่างการซ้อม >>
+            อยู่ระหว่างการซ่อม >>
           </h1>
         </div>
         <div>
@@ -162,13 +158,7 @@
         </div>
       </div>
     </section>
-    <!-- <span>{{ GStore.caseList }}</span> -->
   </div>
-  <!-- <div>
-    <span v-for="event in GStore.caseDetail" :key="event">{{
-      event.car_symptoms
-    }}</span>
-  </div> -->
 </template>
 
 <script>
@@ -228,27 +218,6 @@ export default {
   //   AuhtService.get_progress()
   // }
 }
-
-// data() {
-//   return {
-//     role: ''
-//   }
-// },
-// mounted() {
-//   this.checkRole()
-// },
-// methods: {
-//   checkRole() {
-//     return apiClient
-//       .get('/check-role')
-//       .then((response) => {
-//         this.role = response.data.role
-//       })
-//       .catch((error) => {
-//         console.error(error)
-//       })
-//   }
-// }
 </script>
 <style scoped>
 .blue-text {
